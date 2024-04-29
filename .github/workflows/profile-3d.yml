@@ -6,8 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    environment: 3d-contib
+  build:    
+    environment: 
+      name: 3d-contib
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
